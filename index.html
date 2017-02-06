@@ -4,11 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
-</head>
-<body>
-  <h1>Hello Front-End</h1>
+  <link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
 
+  <title>Temp Convert</title>
+</head>
+<body class="bodyClass">
+
+<div class='flexLeft'>
+</div>
+
+<div class="box">
+  	<h1>Temperature Converter</h1>
+
+
+  	<form method="get" action="URL">
+  		<input id="searchy" class="searchBar" type="number" name="tempInput" value="input"><br>
+  		
+  		<label class="round">
+  		<input type='radio' name='temp' value='far'>
+  		°F
+  		</label>
+  		<label class="round">
+  		<input type='radio' name='temp' value='cel'>
+  		°C
+  		</label><br>
+  		
+  		<input class="submitButton" type="submit" value="Submit">
+
+  		<div id="result">
+  		</div>
+	</form>
+
+
+</div>  
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

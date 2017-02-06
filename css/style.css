@@ -1,3 +1,49 @@
 h1 {
-  color: blue;
+  color: white;
+  font-family: 'Mirza', cursive;
+  font-size: 40px;
+
 }
+.bodyClass {
+	display: flex;
+	background-image: url('https://tctechcrunch2011.files.wordpress.com/2015/08/clouds.jpg');
+	background-size: cover;
+}
+.flexLeft {
+	display: flex;
+	width: 25%;
+	height: 1000px;
+}
+.box {
+	width: 50%;
+	display: flex;
+	text-align: center;
+	background-color: rgba(1,1,1,0.5);
+	height: 500px;
+	display: inline-block;
+	border-radius: 50px;
+}
+
+.round {
+	display: inline-block;
+	padding: 20px;
+	font-size: 21px;
+	color: white;
+}
+
+.searchBar {
+	margin: 10px 10px 10px 10px;
+	font-size: 25px;
+}
+
+.submitButton {
+	display: inline-block;
+	padding: 50px;
+	font-size: 20px;
+}
+ #result {
+ 	height: 20px;
+ 	width: 30px
+ 	background-color: black;
+
+ }
